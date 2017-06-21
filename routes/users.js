@@ -11,8 +11,16 @@ router.post('/register', (req, res, next)=> {
 		name: req.body.name,
 		email: req.body.email,
 		username: req.body.username,
-		password: req.body.password
+		password: req.body.password,
+		password2: req.body.password2
 	});
+
+	req.checkBody('Name', 'Name is required').notEmpty();
+	req.checkBody('Email', 'Email is required').notEmpty();
+	req.checkBody('Email', 'Email is not valid').isEmail();
+	req.checkBody('Username', 'Userame is required').notEmpty();
+	req.checkBody('password', 'Password is required').notEmpty();
+	req.checkBody('password2', 'Password do not match').equals(req.body.password);
 
 	User.addUser(newUser, (err, user)=>{
 		if(err){
