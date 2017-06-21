@@ -1,0 +1,25 @@
+{
+  "name": "sponder",
+  "version": "1.0.0",
+  "description": "MEAN stack Sports Finder app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Jonatan Colim",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "^0.9.41"
+  }
+}
