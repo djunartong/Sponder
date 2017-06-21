@@ -1,4 +1,4 @@
 module.exports = {
-	database: 'mongodb://localhost:27017/sponder',
+	database: 'mongodb://sponder:123456@ds127492.mlab.com:27492/sponder',
 	secret: 'yoursecret'
 }
