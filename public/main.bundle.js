@@ -725,7 +725,7 @@ module.exports = "<!DOCTYPE html>\n<html>\n<title>Sponder - Home</title>\n<meta 
 /***/ 690:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  search works!\n</p>\n"
+module.exports = "<!DOCTYPE html>\n<html>\n<title>Sponder - Home</title>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"css/style.css\">\n<link rel=\"stylesheet\" href=\"css/theme.css\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Oswald:400,700\">\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n<style>\nhtml,body,h1,h2,h3,h4,h5 {font-family: 'Oswald', sans-serif}\n</style>\n<body class=\"w3-theme-l5\">\n\n\t<p>Search work!</p>\n\t\n</body>\n</html>"
 
 /***/ }),
 
